@@ -60,7 +60,7 @@ describe('Booking form', () => {
   });
 
   test(
-    `should display an error message and disable submit button when date 
+    `should display an error message and disable sumbit button when date 
     field's value is empty`, () => {
     render(
       <BookingForm 
@@ -82,7 +82,7 @@ describe('Booking form', () => {
   });
 
   test(
-    `should display an error message and disable submit button when number of  
+    `should display an error message and disable sumbit button when number of  
     guests field's value is empty`, () => {
     render(
       <BookingForm 
